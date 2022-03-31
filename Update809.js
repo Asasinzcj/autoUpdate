@@ -61,7 +61,7 @@ function getFakeID() {
 }
 
 function getUrl(spip, spport, fakeid) {
-    const spkey = getMd5(`if5ax/?fakeid=${fakeid}&spid=81117&pid=81117&spip=${spip}&spport=${spport}3d99ff138e1f41e931e58617e7d128e2`);
+    const spkey = getMd5(`if5ax/?fakeid=${fakeid}&spid=31117&pid=31117&spip=${spip}&spport=${spport}3d99ff138e1f41e931e58617e7d128e2`);
     const headers = {
         'Host': 'dir.wo186.tv:809',
         'User-Agent': 'Mozilla/5.0 (Linux; Android 11; M2012K11AC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36'
