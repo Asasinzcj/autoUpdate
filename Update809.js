@@ -10,7 +10,7 @@
 前提装好了node和npm
 npm install axios express
 npm install pm2 -g
-pm2 start 809_Converter_Server.js
+pm2 start Update809.js
 
 使用方法
 订阅链接：
