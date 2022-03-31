@@ -71,7 +71,7 @@ function getUrl(spip, spport, fakeid) {
         headers: headers,
     };
 
-    const url = `http://dir.wo186.tv:809/if5ax/?fakeid=${fakeid}&spid=81117&pid=81117&spip=${spip}&spport=${spport}&spkey=${spkey}`;
+    const url = `http://dir.wo186.tv:809/if5ax/?fakeid=${fakeid}&spid=31117&pid=31117&spip=${spip}&spport=${spport}&spkey=${spkey}`;
     return axios.get(url, options).then(rsp => rsp.data.url);
 }
 
